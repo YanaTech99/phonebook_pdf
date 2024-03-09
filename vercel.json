@@ -8,12 +8,12 @@
     ],
     "routes": [
       {
-        "src": "/generate-pdf",
-        "dest": "server.js"
+        "source": "/generate-pdf",
+        "dest": "index.js"
       },
       {
-        "src": "/(.*)",
-        "dest": "server.js"
+        "source": "/(.*)",
+        "dest": "index.js"
       }
     ]
   }
